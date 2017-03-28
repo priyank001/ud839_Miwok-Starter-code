@@ -14,8 +14,27 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ef5350"
+        android:textColor="#ffffff"
         android:text="What is your name?"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:id="@+id/visibleOne"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="आपका नाम क्या है?"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:layout_below="@id/visibleOne"
+        android:id="@+id/visibleTwo"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ef5350"
+
         android:textSize="30sp"
         android:textAlignment="center"
         android:padding="15dp"
@@ -27,7 +46,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="mera naam chin chin chu"
         android:textSize="30sp"
         android:padding="10dp"
         android:textAlignment="center"
@@ -43,6 +61,7 @@
         android:layout_alignParentRight="true"
         android:text="Continue..."
         android:background="#ff6666"
+        android:id="@+id/button1"
         />
 
 </RelativeLayout>

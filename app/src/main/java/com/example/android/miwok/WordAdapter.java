@@ -1,30 +1,43 @@
 package com.example.android.miwok;
 
+import android.app.Activity;
 import android.content.Context;
 import android.support.annotation.NonNull;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.ImageView;
 import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by Shivam Namdev on 03-02-2017.
  */
 
 public class WordAdapter extends ArrayAdapter<Word> {
 
-    private static final String LOG_TAG = WordAdapter.class.getSimpleName();
-
-
-    public WordAdapter(Context context,ArrayList<Word> resource) {
+    public WordAdapter(Context context,List<Word> resource) {
         super(context,0,resource);
     }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public int getCount() {
+        return super.getCount();
+    }
+
+
     @NonNull
     @Override
     public View getView(int position,View convertView,ViewGroup parent) {
         View listItemView = convertView;
+
         if(listItemView == null)
         {
             listItemView = LayoutInflater.from(getContext()).inflate( R.layout.simple_list_item_1, parent, false);

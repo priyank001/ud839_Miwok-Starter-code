@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#4db6ac"
+    tools:context="com.example.android.miwok.Lesson_content$PlaceholderFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="What is your name?"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:id="@+id/visibleOne"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="आपका नाम क्या है?"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:layout_below="@id/visibleOne"
+        android:id="@+id/visibleTwo"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ef5350"
+        android:visibility="invisible"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/firstone"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:background="#ffd54f"
+        android:layout_below="@id/firstone"
+        android:id="@+id/secondone"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#ffffff"
+        android:text="Lesson One"
+        android:layout_marginTop="170dp"
+        android:id="@+id/firstonewc"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="30sp"
+        android:text="पाठ 1"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:layout_below="@id/firstone"
+        android:id="@+id/secondonewc"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+        <me.himanshusoni.chatmessageview.ChatMessageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/chatMessageView"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cmv_arrowGravity="start"
+            app:cmv_arrowMargin="3dp"
+            app:cmv_arrowPosition="right"
+            app:cmv_backgroundColor="#88BABABA"
+            app:cmv_backgroundColorPressed="#FFBABABA"
+            app:cmv_contentPadding="10dp"
+            app:cmv_cornerRadius="3dp"
+            app:cmv_showArrow="true">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingLeft="16dp">
+                <TextView
+                    android:id="@+id/text1e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                <TextView
+                    android:id="@+id/text1h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            </LinearLayout>
+        </me.himanshusoni.chatmessageview.ChatMessageView>
+
+
+        <me.himanshusoni.chatmessageview.ChatMessageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/chatMessageView1"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cmv_arrowGravity="start"
+            app:cmv_arrowPosition="left"
+            app:cmv_backgroundColor="#8800bcd4"
+            app:cmv_backgroundColorPressed="#ff00bcd4"
+            app:cmv_cornerRadius="3dp"
+            app:cmv_showArrow="true">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingLeft="16dp">
+            <TextView
+                android:id="@+id/text2e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            <TextView
+                android:id="@+id/text2h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            </LinearLayout>
+        </me.himanshusoni.chatmessageview.ChatMessageView>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

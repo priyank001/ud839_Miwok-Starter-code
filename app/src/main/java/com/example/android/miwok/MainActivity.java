@@ -18,6 +18,7 @@ package com.example.android.miwok;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -31,69 +32,64 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Find the views that shows the all category
-        TextView numbers = (TextView)findViewById(R.id.numbers);
-        TextView family_members = (TextView)findViewById(R.id.family);
-        TextView colors = (TextView)findViewById(R.id.colors);
-        TextView phrases = (TextView)findViewById(R.id.phrases);
+        TextView numbers = (TextView) findViewById(R.id.numbers);
+        TextView family_members = (TextView) findViewById(R.id.family);
+        TextView colors = (TextView) findViewById(R.id.colors);
+        TextView phrases = (TextView) findViewById(R.id.phrases);
 
+        try {
+            //Set the clickListener on that view
+            numbers.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    //Create a new Intent to open the {@link Numbers}
+                    Intent numbersIntent = new Intent(MainActivity.this, Numbers.class);
 
-        //Set the clickListener on that view
-        numbers.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                //Create a new Intent to open the {@link Numbers}
-                Intent numbersIntent = new Intent(MainActivity.this, Numbers.class);
+                    //Start the new activity
+                    startActivity(numbersIntent);
 
-                //Start the new activity
-                startActivity(numbersIntent);
+                }
+            });
 
-            }
-        });
+            family_members.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    //Create a new Intent to open the {@link Numbers}
+                    Intent familyIntent = new Intent(MainActivity.this, Family_members.class);
 
-        family_members.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                //Create a new Intent to open the {@link Numbers}
-                Intent familyIntent = new Intent(MainActivity.this, Family_members.class);
+                    //Start the new activity
+                    startActivity(familyIntent);
 
-                //Start the new activity
-                startActivity(familyIntent);
+                }
+            });
 
-            }
-        });
+            colors.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    //Create a new Intent to open the {@link Numbers}
+                    Intent colorsIntent = new Intent(MainActivity.this, Phrases.class);
 
-        colors.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                //Create a new Intent to open the {@link Numbers}
-                Intent colorsIntent = new Intent(MainActivity.this, Colors.class);
+                    //Start the new activity
+                    startActivity(colorsIntent);
 
-                //Start the new activity
-                startActivity(colorsIntent);
+                }
+            });
 
-            }
-        });
+            phrases.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    //Create a new Intent to open the {@link Numbers}
+                    Intent phrasesIntent = new Intent(MainActivity.this, Phrases.class);
 
-        phrases.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                //Create a new Intent to open the {@link Numbers}
-                Intent phrasesIntent = new Intent(MainActivity.this, Phrases.class);
+                    //Start the new activity
+                    startActivity(phrasesIntent);
 
-                //Start the new activity
-                startActivity(phrasesIntent);
+                }
+            });
 
-            }
-        });
-
+        } catch (NullPointerException S) {
+            Log.d("Error: ", " " + S);
+        }
     }
 }
 
