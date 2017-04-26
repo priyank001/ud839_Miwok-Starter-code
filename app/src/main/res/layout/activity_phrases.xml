@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity"
-    android:background="@color/common_google_signin_btn_text_light_disabled">
+    android:background="#55626F">
 
     <!--List view for displaying chat messages-->
     <ListView
@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="#ffdddddd"
+        android:background="#37474f"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -35,13 +35,14 @@
             android:layout_marginRight="4dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="#FFFFFF"/>
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/btn_send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/send"
+            android:src="@drawable/sendbutton"
             android:text="@string/send" />
     </LinearLayout>
 

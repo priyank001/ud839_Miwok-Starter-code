@@ -1,16 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ListView
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
-            tools:context="com.example.android.miwok.Numbers"
-            android:id="@+id/list"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingBottom="16dp"
-            android:paddingLeft="16dp"
-            android:paddingTop="16dp"
-            android:paddingRight="16dp"
-            android:orientation="vertical">
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#75715E"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:id="@+id/linearLayoutNumbers"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
-</ListView>
+    <TextView
+        android:id="@+id/numbersLessons1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/lesson_1"
+        android:layout_margin="16dp"
+        android:textSize="40sp"
+        android:background="@color/category_numbers"/>
+    <TextView
+        android:id="@+id/numbersTitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:padding="10dp"
+        android:text="@string/path1"
+        android:textSize="18sp"
+        android:background="#F9E686"
+         />
 
+    <TextView
+        android:id="@+id/numbersLessons2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/lesson_2"
+        android:layout_margin="16dp"
+        android:textSize="40sp"
+        android:background="@color/category_numbers"/>
+    <TextView
+        android:id="@+id/numbersTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:padding="10dp"
+        android:text="@string/path2"
+        android:textSize="18sp"
+        android:background="#F9E686"
+        />
+
+    <TextView
+        android:id="@+id/numbersLessons3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/lesson_3"
+        android:layout_margin="16dp"
+        android:textSize="40sp"
+        android:background="@color/category_numbers"/>
+    <TextView
+        android:id="@+id/numbersTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:padding="10dp"
+        android:text="@string/path3"
+        android:textSize="18sp"
+        android:background="#F9E686"
+        />
+
+
+    <TextView
+        android:id="@+id/numbersLessons4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/lesson_4"
+        android:layout_margin="16dp"
+        android:textSize="40sp"
+        android:background="@color/category_numbers"/>
+    <TextView
+        android:id="@+id/numbersTitle4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:padding="10dp"
+        android:text="@string/path4"
+        android:textSize="18sp"
+        android:background="#F9E686"
+        />
+
+
+    <TextView
+        android:id="@+id/numbersLessons5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/lesson_5"
+        android:layout_margin="16dp"
+        android:textSize="40sp"
+        android:background="@color/category_numbers"/>
+    <TextView
+        android:id="@+id/numbersTitle5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:padding="10dp"
+        android:text="@string/path5"
+        android:textSize="18sp"
+        android:background="#F9E686"
+        />
+
+</LinearLayout>
+</ScrollView>

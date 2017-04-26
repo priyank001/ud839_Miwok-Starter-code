@@ -14,7 +14,7 @@
 -->
 <resources>
     <!-- Title for the application. [CHAR LIMIT=12] -->
-    <string name="app_name">Miwok</string>
+    <string name="app_name">Beginner English Tutorial</string>
 
     <!-- Category name for phrases [CHAR LIMIT=20] -->
     <string name="category_phrases">Phrases</string>
@@ -27,7 +27,53 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members</string>
-    <string name="hoohoo">hoohoo</string>
+    <string name="english_point">%s</string>
+
+    <!-- Label for overflow menu option that inserts fake pet data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Pets</string>
+
+    <!-- Title for the activity to add a new pet [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_pet">Add a Pet</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_username">Username</string>
+
+    <!-- Label for gender information in the editor [CHAR LIMIT=30] -->
+    <string name="category_email">E-mail Id</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_password">Password</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_user_name">Username</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_email">example@something.com</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_password">********</string>
+
+    <!-- Units for weight of the pet (kilograms) [CHAR LIMIT=5] -->
+    <string name="unit_pet_weight">kg</string>
+
+    <!-- Label for dropdown menu option if the pet's gender is unknown [CHAR LIMIT=20] -->
+    <string name="gender_unknown">Unknown</string>
+
+    <!-- Label for dropdown menu option if the pet is male [CHAR LIMIT=20] -->
+    <string name="gender_male">Male</string>
+
+    <!-- Label for dropdown menu option if the pet is female [CHAR LIMIT=20] -->
+    <string name="gender_female">Female</string>
+
     <string-array name="Elesson_names">
         <item>Lesson 1</item>
         <item>Lesson 2</item>
@@ -84,5 +130,27 @@
     <string name="hello">Hello</string>
     <string name="send">Send</string>
     <string name="helloworld">Helloworld</string>
+    <string name="chatboard">ChatBoard</string>
+    <string name="lessons">Lessons</string>
+    <string name="score">Score</string>
+    <string name="tests">Tests</string>
+    <string name="lesson_1">Lesson 1</string>
+    <string name="lesson_2">Lesson 2</string>
+    <string name="lesson_3">Lesson 3</string>
+    <string name="lesson_4">Lesson 4</string>
+    <string name="lesson_5">Lesson 5</string>
+    <string name="path1"> \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 पाठ 1\n\n \u0020 \u0020 \"Introduce Yourself अपने आप का परिचय\" \n\n [1] What is your name? \n आपका नाम क्या है? \n\n [2] My name is Pallavi. \n मेरा नाम पल्लवी है \n\n [3] I am your friend. \n मैं आपका / आपकी मित्र हूँ  \n\n [4] Nice to meet you. \n आपसे मिलकर अच्छा लगा</string>
+    <string name="path2"> \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 पाठ 2\n\n \u0020 \u0020 \"Simple Present tense\" \n\n [1] I am from India. \n  मे भारत से हु। \n\n [2] You are from America. \n म आप अमेरिका से हैं \n\n [3] I am from a city in Punjab. \n मैं पंजाब के एक शहर से हूँ  \n\n [4] I am from India, I am Indian. \n मैं भारत से हूँ, मैं भारतीय हूं</string>
+    <string name="path3"> \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 पाठ 3\n\n \u0020 \u0020 \"Simple Present Negative is, are,am\" \n\n [1] I am not a Student. \n   मैं एक छात्र नहीं हूं \n\n [2] We are not Teachers. \n हम अध्यापक नहीं हैं \n\n [3] You are not my friend. \n आप मेरे मित्र नहीं हैं  \n\n [4] You are not from America. \n आप अमेरिका से नहीं हैं</string>
+    <string name="path4"> \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 पाठ 4\n\n \u0020 \u0020 \"Simple Present Interrogative\" \n\n [1]Are you Indian? \n क्या आप भारतीय हैं? \n\n [2] Are you Mr.Sharma? \n  क्या आप  Mr.Sharma हैं? \n\n [3]  Is She Chinese? \n क्या वह चीनी है?  \n\n [4] Are they from America? \n  क्या वे अमेरिका से हैं?</string>
+    <string name="path5"> \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 पाठ 5\n\n \u0020 \u0020 \"Thank you/Congratulations \" \n\n [1]Thank you \n धन्यवाद \n\n [2] you are welcome \n आपका स्वागत है \n\n [3]   I am fine, Thank you \n मैं ठीक हूँ, धन्यवाद  \n\n [4] Sorry, Do you speak hindi? \n  माफ़ कीजिये,  क्या आप हिंदी बोलते हैं?</string>
+    <string name="path6"> \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 पाठ 1\n\n \u0020 \u0020 \"Verbs \" \n\n [1]We speak english \n  हम अंग्रेजी बोलते हैं \n\n [2] He speaks english \n वह अंग्रेजी बोलता है \n\n [3]   They speak English \n  वो अंग्रेजी बोलते हैं  \n\n [4] He eats \n  वह खाता है \n\n [5] We dance \n  हम नृत्य करते हैं \n\n [6] She drinks water \n\n  वो पानी पीती है</string>
+    <string name="path7"> \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 पाठ 2\n\n \u0020 \u0020 \"Negative Verbs \" \n\n [1]I Do not speak English. \n मैं अंग्रेजी नहीं बोलता \n\n [2] he does not speak English. \n वह अंग्रेजी में बात नहीं करता। \n\n [3]   He is not my friend. \n  वह मेरे दोस्त नहीं है  \n\n [4] we do not dance \n हम नृत्य नहीं करते हैं</string>
+    <string name="path8"> \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020  \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 \u0020 पाठ 3\n\n \u0020 \u0020 \"Interrogative Verbs \" \n\n [1]Do you Drink water? \n आप पानी पीते हो? \n\n [2] Do you eat bread? \n आप रोटी खाते हैं \n\n [3]  Is he your friend? \n  क्या वह आपका दोस्त है? \n\n [4] Do you speak english? \n क्या आप अंग्रेजी बोलते हैं?</string>
+    <string name="your_score_is">Your Score is :</string>
+    <string name="chatbot">ChatBot</string>
+    <string name="_5">5</string>
+    <string name="home">Home</string>
+    <string name="level_1_choose">Level 1</string>
 
 </resources>

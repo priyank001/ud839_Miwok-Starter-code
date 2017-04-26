@@ -6,10 +6,12 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
+import java.io.File;
 
 import org.alicebot.ab.AIMLProcessor;
 import org.alicebot.ab.Bot;
@@ -26,14 +28,16 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 public class Phrases extends AppCompatActivity {
-    public Bot bot;
-    public static Chat chat;
-    private ListView mListView;
-    private FloatingActionButton mButtonSend;
-    private EditText mEditTextMessage;
-    private ChatMessageAdapter mAdapter;
+        public Bot bot;
+        public static Chat chat;
+        private ListView mListView;
+        private FloatingActionButton mButtonSend;
+        private EditText mEditTextMessage;
+        private ChatMessageAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -103,7 +107,7 @@ public class Phrases extends AppCompatActivity {
         bot = new Bot("Hari", MagicStrings.root_path, "chat");
         chat = new Chat(bot);
         String[] args = null;
-        mainFunction(args);
+        mainFunction(null);
 
     }
 
@@ -132,7 +136,7 @@ public class Phrases extends AppCompatActivity {
     }
     //check SD card availability
     public static boolean isSDCARDAvailable(){
-        return Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)? true :false;
+        return Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED);
     }
     //copying the file
     private void copyFile(InputStream in, OutputStream out) throws IOException {
@@ -155,4 +159,18 @@ public class Phrases extends AppCompatActivity {
         System.out.println("Robot: " + response);
     }
 
+//    File fileExt = new File(getExternalFilesDir(null).getAbsolutePath() + "/Hari");
+    /*if (!fileExt.exists())
+    {
+        ZipFileExtraction extract = new ZipFileExtraction();
+
+        try {
+            extract.unZipIt(getAssets().open("Hari.zip"), getExternalFilesDir(null).getAbsolutePath() + "/");
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+
+        }
+
+    }*/
 }

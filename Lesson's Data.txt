@@ -1,0 +1,380 @@
+Ques 1: My name is Pallavi.
+			मेरा नाम पल्लवी है
+			
+Ques 2:	I am Pallavi
+		 मैं पल्लवी हूं
+		 
+		 What is your name?
+		 आपका नाम क्या है?
+		 
+		 Your name is Neha
+		 आपका नाम नेहा है
+		 
+		 ***********predefine conversation***********
+		 
+		 App - What is your name?
+		 आपका नाम क्या है?
+		 me - My name is Neha
+		 मेरा नाम नेहा हे
+		App - I am your friend
+		मैं आपका / आपकी मित्र हूँ
+		me- nice to meet you
+		आपसे मिलकर अच्छा लगा
+		App - Same here
+		मुझे भी
+		
+		*********************************************
+		
+		  hello! I am Pallavi
+		  नमस्कार! मैं पल्लवी हूं
+		  
+		  What's up?
+		  क्या हो रहा है?
+		  
+		  How are you?
+		  क्या हाल है?
+		  
+		  I am
+		  मैं हूँ
+		  
+		  You are
+		  तुम हो
+		  
+		  How are you doing?
+			आप कैसे हैं?
+			
+			How do you do?
+			आप कैसे हैं?
+			
+			 I am fine.
+			 मैं ठीक हूँ।
+			 
+			 I am good
+			 मैं अच्छा हूँ
+			 **************************
+			 simple Present tense 
+			 
+			 I am from India.
+			 मे भारत से हु।
+			 
+			 You are from America.
+			 आप अमेरिका से हैं
+			 
+			 I am from a city in Punjab.
+			 मैं पंजाब के एक शहर से हूँ
+			 
+			 Where are you from?
+			 आप कहां के निवासी हैं?
+			 
+			 
+			 I am Indian.
+			 मैं भारतीय हूँ
+			 
+			 We are Indian.
+				हम भारतीय हैं
+				
+			
+			I am from India, I am Indian.
+			मैं भारत से हूँ, मैं भारतीय हूं
+			
+			They are from America, They are American.
+			वे अमेरिका से हैं, वे अमेरिकी हैं
+			
+			 You're American.
+			 आप अमेरिकी हो
+			 **************************************************
+			 Simple Present Negative is, are,am
+			 
+			 
+			 I Am not Indian.
+			 मैं भारतीय नहीं हूं
+			 
+			 I am not a Student.
+			 मैं एक छात्र नहीं हूं
+			 
+			 We are not Teachers.
+			 हम अध्यापक नहीं हैं
+			 
+			 You are not my friend.
+			 आप मेरे मित्र नहीं हैं
+			 
+			 You are not from America.
+			 आप अमेरिका से नहीं हैं
+			 
+			 It's not Indian.
+			 यह भारतीय नहीं है
+			 
+			 ***************************************************
+			 Simple Present Interrogative
+			 
+			 Are you Indian.
+			 क्या आप भारतीय हैं
+			
+			Are you Mr.Sharma? 
+			  क्या आप  Mr.Sharma हैं?
+			  
+			  Is She Chinese?
+			  क्या वह चीनी है?
+			  
+			  
+			  Are they from America?
+			  क्या   वे अमेरिका से हैं
+			  
+			  *******************************************************
+			  greetings 
+			  
+			  Good morning
+			  शुभ प्रभात
+			  
+			  
+			  ****************************************************
+			  Thankyou congratulations
+			  
+			  Thank you
+			  धन्यवाद
+			  
+			  you are welcome
+			  आपका स्वागत है
+			  
+			  I am fine, Thank you
+			  मैं ठीक हूँ, धन्यवाद
+		
+			Please
+			कृप्या
+			
+			sorry
+			माफ़ कीजिये
+			
+			Excuse me
+			क्षमा कीजिय!
+			
+			Congratulations
+			बधाई
+			*************************************************************
+			
+			 Do you speak hindi.
+			 क्या आप हिंदी बोलते हैं।
+			 
+			 *****************************************
+			 verbs
+			
+			We speak english
+			 हम अंग्रेजी बोलते हैं
+			 
+			 He speaks english
+			 वह अंग्रेजी बोलता है
+			 
+			 They speak English
+			 वो अंग्रेजी बोलते हैं
+			 
+			He eats
+			वह खाता है
+			
+			we dance
+			हम नृत्य करते हैं
+			
+			You speak english
+			आप अंग्रेजी बोलते हैं
+			
+			They speak english
+			वो अंग्रेजी बोलते हैं
+			
+			He speaks English
+			वह अंग्रेजी बोलता है
+			
+			Do you eat bread
+			आप रोटी खाते हैं
+			
+			she drinks
+			वह पीती है
+			
+			She drinks water
+			वो पानी पीती है
+			
+			Do you Drink water?
+			आप पानी पीते हो?
+			
+			She dances
+			वह नाचती है
+			
+			we dance 
+			हम नृत्य करते हैं
+			*****************************************
+			negative verbs
+			
+			I Don't speak English.
+			मैं अंग्रेजी नहीं बोलता
+			
+			he doesn't speak English.
+			वह अंग्रेजी में बात नहीं करता।
+			
+			He is not my friend.
+			वह मेरे दोस्त नहीं है
+			
+			******************************************
+			
+			 kisi ko nirdesh dena
+			 
+			 sit down
+			 बैठ जाओ
+			 
+			 stand up
+			 खड़े हो जाओ
+			 
+			 turn off the music
+			 संगीत बंद करो
+			 
+			 open the door
+			 दरवाजा खोलो
+			 
+			 close the windows
+			 खिड़की बंद करें
+			 
+			 close your eyes
+			 अपनी आँखें बंद करें
+			 
+			 ******************************************
+			 is am practice
+			 
+			 I am a teacher
+			 मैं एक शिक्षक हूं
+			 
+			 you are a student
+			 आप एक छात्र हैं
+			 
+			 Sachin's bag is heavy
+			 सचिन का बैग भारी है
+			 
+			 is this your daughter
+			 क्या ये तुम्हारी बेटी है
+			 
+			 *****************************************
+			 privaar k baare me btana
+
+				she is my mother
+				वो मेरी माँ है
+				
+				he is my father
+				वह मेरे पिताजी हैं
+				
+				my mother is pretty.
+				मेरी माँ सुंदर है।
+				
+				she is not my mother.
+				वह मेरी माँ नहीं है।
+				
+				my father is from delhi.
+				मेरे पिता दिल्ली से है।
+				
+				my sister is smart.
+				मेरी बहन चालाक है।
+				
+				*********************************************
+				possessive adjective
+				
+				This is a car
+				यह एक कार है
+				
+				This is my car.
+				यह मेरी कार है।
+				
+				Is this your dog.
+				क्या यह आपका कुत्ता है।
+				 
+				 This is their sister.
+				 यह उनकी बहन है।
+				 
+				 his wife is smart.
+				 उनकी पत्नी चालाक है।
+				 
+				 *****************************************************
+				 articles
+				 Of vs Off
+				 
+				 Of and Off are homophones.They have the same pronunciation but different meaning and spellings.
+				 People are rarely confused in the usage of these two words once they know the meaning.
+				 
+				 Of is a preposition. It can have a lot of different usages in the English language. Let's have a look.
+				 It means to belong to or relate someone or something.
+				 
+				 1) He has a fear of heights.
+				 2) These are the works of M.F Husain.
+				 
+				 'of' is also used to show amount.
+				 
+				 1) There are a lot of students outside.
+				 2) We need 1kg of apples.
+				 
+				 'of' is used to show number,age or date.
+				 
+				 1) I was born on the 4th of may.
+				 2) I got an increment of 10% in my salary.
+
+				'of' can mean contion or consist of.
+				
+				1) Can you give me a glass of water?
+				2) she brought me a box of chocolates.
+				
+				'of' can be used to show a reason.
+				
+				1) Frederick died of Cancer.
+				2) These devastations were the result of the war.
+				
+				Off is an adverb. It can be used in a few scenarios such as.
+				
+				'off' can mean not touching something or removing something.
+				
+				1) Please take off your shoes.
+				2) The bottle just fell off.
+				
+				'off' means canceled.
+				
+				1) The deal is off.
+				2) The wedding is off.
+				
+				'off' can mean something that is not operating or not at work.
+				
+				1) switch off the light.
+				2) The computer is off.
+				
+				'off' can mean that someone is away from a place.
+				
+				1) The thief ran off before the police street.
+				2) will you get off at the next station?
+				
+				'off' can mean near.
+				1) Her house is off the main street.
+				2) That lane is off the highway.
+				
+				'off' can mean discount.
+				1) There is 20% off on this book.
+				2) I got this dress at a 5% off.
+				
+				'off' means leave too.
+				
+				1) I need the day off.
+				2) She is on her weekly off today.
+********************************************************************************************************
+Test of article
+				I had asked him to get me three kilos _ sugar.
+				1) off
+				2) of
+				3) both are incorrect
+				ans 2
+				Please switch _ the light when you leave the room.
+				1) of
+				2) both 
+				3) off
+				ans 3
+				Can you take care __ my son till I use the washroom.
+				1) off
+				2) of
+				3) both are incorrect
+				 ans 2
+********************************************************************************************
+Article Can vs. May
+
+		We have been corrected for the usage of 'can' and 'may' ever since we were in school.
+		Remember your teacher or parent saying,"You can but you may not". Well, here is what 
+						
+				 

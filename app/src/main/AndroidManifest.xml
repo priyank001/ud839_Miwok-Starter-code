@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><!--
-
--->
+<?xml version="1.0" encoding="utf-8"?><!--  -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.android.miwok">
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/icon"
-        tools:replace="android:label"
         android:label="Beginner English Tutorial"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,17 +22,17 @@
         </activity>
         <activity
             android:name=".Numbers"
-            android:label="Numbers" />
+            android:label="Lessons" />
         <activity
             android:name=".Family_members"
-            android:label="Family Members" />
+            android:label="Tests" />
         <activity
             android:name=".Colors"
-            android:label="Colors" />
+            android:label="Score" />
         <activity
             android:name=".Phrases"
-            android:label="Phrases" />
-        <activity android:name=".Questioning" />
+            android:label="ChatBoat" />
+
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -42,10 +41,20 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity
-            android:name=".Lesson_content"
-            android:label="@string/title_activity_lesson_content"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Userregistration">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".q1" />
+        <activity android:name=".last" />
+        <activity android:name=".q2" />
+        <activity android:name=".q3" />
+        <activity android:name=".q4" />
+        <activity android:name=".levels" />
+        <activity android:name=".levels2"></activity>
     </application>
 
 </manifest>

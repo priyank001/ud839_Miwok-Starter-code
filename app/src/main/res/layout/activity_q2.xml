@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:background="@color/category_family"
+tools:context="com.example.android.miwok.q2">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="2.क्या आप अंग्रेजी बोलते हैं?"
+    android:id="@+id/textView2"
+    android:padding="30dp"
+    android:textColor="#000000"
+    android:background="@color/category_numbers"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="300dp" >
+<RadioButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_weight="1"
+    android:background="#F9E686"
+    android:padding="10dp"
+    android:checked="false"
+    android:textSize="20sp"
+    android:text="Does you speaks English?"
+    android:id="@+id/op12"
+    />
+<RadioButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_weight="1"
+    android:background="#F9E686"
+    android:padding="10dp"
+    android:checked="false"
+    android:textSize="20sp"
+
+    android:text="Do you spoke English?"
+    android:id="@+id/op22"
+    />
+
+<RadioButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_weight="1"
+    android:background="#F9E686"
+    android:padding="10dp"
+    android:checked="false"
+    android:textSize="20sp"
+
+    android:text="Do you speak English?"
+    android:id="@+id/op32"
+    />
+<RadioButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_weight="1"
+    android:background="#F9E686"
+    android:padding="10dp"
+    android:checked="false"
+    android:textSize="20sp"
+
+    android:text="None of the Above."
+    android:id="@+id/op42"/>
+</RadioGroup>
+</LinearLayout>

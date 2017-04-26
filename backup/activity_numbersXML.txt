@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context="com.example.android.miwok.Numbers"
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:padding="2dp"
+        android:layout_margin="@dimen/activity_margin"
+        android:clickable="true"
+        android:background="@color/category_numbers"
+        >
+
+        <ImageView
+            android:id="@+id/list_item_icon1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:background="@color/category_numbers"
+            >
+
+            <TextView
+                android:id="@+id/version_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Lesson 1"/>
+
+            <TextView
+                android:id="@+id/version_number1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:text="??? 1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:padding="2dp"
+        android:layout_margin="@dimen/activity_margin"
+        android:background="@color/category_numbers"
+        android:clickable="true"
+
+        >
+
+        <ImageView
+            android:id="@+id/list_item_icon2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:background="@color/category_numbers">
+
+            <TextView
+                android:id="@+id/version_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson 2" />
+
+            <TextView
+                android:id="@+id/version_number2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:text="??? 2"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:padding="2dp"
+        android:layout_margin="@dimen/activity_margin"
+        android:background="@color/category_numbers"
+        android:clickable="true"
+        >
+
+        <ImageView
+            android:id="@+id/list_item_icon3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:background="@color/category_numbers">
+
+            <TextView
+                android:id="@+id/version_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson 3"/>
+
+            <TextView
+                android:id="@+id/version_number3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:text="??? 3"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:padding="2dp"
+        android:layout_margin="@dimen/activity_margin"
+        android:background="@color/category_numbers"
+        android:clickable="true"
+       >
+
+        <ImageView
+            android:id="@+id/list_item_icon4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:background="@color/category_numbers">
+
+            <TextView
+                android:id="@+id/version_name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson 4"
+                />
+
+            <TextView
+                android:id="@+id/version_number4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:text="??? 4"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:layout_margin="@dimen/activity_margin"
+        android:background="@color/category_numbers"
+        android:clickable="true"
+        >
+
+        <ImageView
+            android:id="@+id/list_item_icon5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/category_numbers"
+            android:orientation="vertical"
+            android:paddingLeft="16dp">
+
+            <TextView
+                android:id="@+id/version_name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson 5" />
+
+            <TextView
+                android:id="@+id/version_number5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:text="??? 5" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:padding="2dp"
+        android:layout_margin="@dimen/activity_margin"
+        android:background="@color/category_numbers"
+        android:clickable="true"
+       >
+
+        <ImageView
+            android:id="@+id/list_item_icon6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:background="@color/category_numbers">
+
+            <TextView
+                android:id="@+id/version_name6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson 6"/>
+
+            <TextView
+                android:id="@+id/version_number6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:text="??? 6"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:padding="2dp"
+        android:layout_margin="@dimen/activity_margin"
+        android:background="@color/category_numbers"
+        android:clickable="true"
+       >
+
+        <ImageView
+            android:id="@+id/list_item_icon7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:background="@color/category_numbers">
+
+            <TextView
+                android:id="@+id/version_name7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson 7"/>
+
+            <TextView
+                android:id="@+id/version_number7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:text="??? 7"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:padding="2dp"
+        android:layout_margin="@dimen/activity_margin"
+        android:background="@color/category_numbers"
+        android:clickable="true"
+        >
+
+        <ImageView
+            android:id="@+id/list_item_icon8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:background="@color/category_numbers">
+
+            <TextView
+                android:id="@+id/version_name8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson 8"/>
+
+            <TextView
+                android:id="@+id/version_number8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:text="??? 8"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:padding="2dp"
+        android:layout_margin="@dimen/activity_margin"
+        android:background="@color/category_numbers"
+        android:clickable="true"
+       >
+
+        <ImageView
+            android:id="@+id/list_item_icon9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:background="@color/category_numbers">
+
+            <TextView
+                android:id="@+id/version_name9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson 9"/>
+
+            <TextView
+                android:id="@+id/version_number9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:text="??? 9"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:padding="2dp"
+        android:layout_margin="@dimen/activity_margin"
+        android:background="@color/category_numbers"
+        android:clickable="true"
+        >
+
+        <ImageView
+            android:id="@+id/list_item_icon10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:background="@color/category_numbers">
+
+            <TextView
+                android:id="@+id/version_name10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson 10"/>
+
+            <TextView
+                android:id="@+id/version_number10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:text="??? 10"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
